@@ -32,7 +32,8 @@ $optimisations = array(
   'limitCommentsJS'           => true,  // Limits the JS for comments only to singular entities
   'limitRevisions'            => true,  // Limits the number of revisions to 5
   'removeCommentsStyle'       => true,  // Removes the .recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;} styling in the head section
-  'slowHeartbeat'             => true   // Slows the heartbeat down to one per minute
+  'slowHeartbeat'             => true,  // Slows the heartbeat down to one per minute
+  'disableGutenpoop'          => true   // Disable the Gutenberg/Block editor for the post edit screen
 );
 ```
 

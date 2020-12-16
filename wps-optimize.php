@@ -35,7 +35,8 @@ class OptWPSimize {
             'limitCommentsJS' => true,
             'limitRevisions' => true,
             'removeCommentsStyle' => true,
-            'slowHeartbeat' => true
+	    'slowHeartbeat' => true,
+	    'disableGutenpoop' => true
         );
         
         $this->optimize = wp_parse_args($optimizations, $defaults);
@@ -378,6 +379,10 @@ class OptWPSimize {
             return $settings;
         } );
 
-    }    
+    }   
+
+    private function disableGutenpoop(){
+	    add_filter('use_block_editor_for_post', '__return_false', 10);
+    } 
       
 }
