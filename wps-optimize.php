@@ -7,7 +7,7 @@ use WP_Error as WP_Error;
 
 defined( 'ABSPATH' ) or die();
 
-class OptWPSimize {
+class WPSOptimize {
         
     private $optimize = array();
             

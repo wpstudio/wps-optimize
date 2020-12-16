@@ -12,8 +12,8 @@ Below is the code fo the default optimizations:
 ```
 $optimisations = array(
   'blockExternalHTTP'         => false, // Block requests to external http on the front-end side. Thus, blocks all request that are done by plugins to external addresses.
-  'deferCSS'                  => false, // Adds defer="defer" to all enqueued JavaScript files.
-  'deferJS'                   => true,  // Defers all registered scripts using the loadCSS function from the Filament Group.  
+  'deferCSS'                  => false, // Defers all registered scripts using the loadCSS function
+  'deferJS'                   => true,  // Adds defer="defer" to all enqueued JavaScript files.
   'disableComments'           => false, // Disables the comments functionality and removes it from the admin menu.
   'disableEmbed'              => false, // Removes the script files that are enqueued by the WordPress media embed system.
   'disableEmoji'              => true,  // Removes the scripts that are enqueued for displaying emojis.
@@ -22,11 +22,11 @@ $optimisations = array(
   'disablejQuery'             => false, // Removes the default jQuery script.
   'disablejQueryMigrate'      => true,  // Removes the jQuery Migrate script.
   'disableRestApi'            => false, // Disables the rest api.
-  'disableRSD'                => true,  // Removes the RDS link in the head section of the site.
-  'disableShortlinks'         => true,  // Removes the shortlinks in the head section of the site.                     
-  'disableVersionNumbers'     => true,  // Removes the version trail in enqueued scripts and styles.           
+  'disableRSD'                => true,  // Removes the RSD link in the head section of the site.
+  'disableShortlinks'         => true,  // Removes the shortlinks in the head section of the site.
+  'disableVersionNumbers'     => true,  // Removes the version trail in enqueued scripts and styles.
   'disableWLWManifest'        => true,  // Removes the WLW Manifest links in the head section of the site.
-  'disableWPVersion'          => true,  // Removes the WP version from the head section of the site.           
+  'disableWPVersion'          => true,  // Removes the WP version from the head section of the site.
   'disableXMLRPC'             => true,  // Disables the xmlrpc functionality.
   'jqueryToFooter'            => true,  // Moves the default jQuery script to the footer.
   'limitCommentsJS'           => true,  // Limits the JS for comments only to singular entities
