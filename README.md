@@ -43,3 +43,14 @@ Once you specify the $optimizations in the array above, you can create a new ins
 ```
 $optimize = new WPStudioCode\WPS_Optimize\WPSOptimize($optimisations);
 ```
+
+## Future Function Additions
+-- Disable Updates  (Choose to disable Everything or Core/Minor/Major, Plugins, Themes)
+-- Hide the "Thank you for creating with WordPress" footer
+-- Hide the "Screen Options" selection drop down
+-- Hide the "Help" selection drop down
+-- Hide all "Nag" Messages from the Admin Dashboard
+-- Hide "Translation Update Required" messages from the Admin Dashboard
+-- Hide the "Theme Update Required" messages from the Admin Dashboard
+-- Hide the "Plugin Update Required" messages from the Admin Dashboard
+-- Hide the "WordPress Core Update Required" messages from the Admin Dashboard
